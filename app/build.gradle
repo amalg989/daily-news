@@ -8,6 +8,14 @@ kapt {
 }
 
 android {
+    signingConfigs {
+        release {
+            storeFile file('/Users/amalgamage/work/newsapp/newsapp')
+            storePassword 'newsapp'
+            keyAlias = 'newsapp'
+            keyPassword 'newsapp'
+        }
+    }
     compileSdkVersion 29
     buildToolsVersion "29.0.2"
     defaultConfig {
