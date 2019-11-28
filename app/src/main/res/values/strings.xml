@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Daily News</string>
+    <string name="tab_text_1">Headlines</string>
+    <string name="tab_text_2">Filter</string>
+    <string name="tab_text_3">Profile</string>
+</resources>
